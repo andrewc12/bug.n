@@ -449,7 +449,7 @@ Manager_moveWindow() {
 
 Manager_onDisplayChange(a, wParam, uMsg, lParam) {
   Global
-  If Config_monitorDisplayChangeMAlwaysYes
+  If Config_monitorDisplayChangeAlwaysYes
   {
     Manager_resetMonitorConfiguration()
   }
